@@ -1,3 +1,27 @@
+/*This is how you make a commment in a css file*/
+
+/*The one below applies to all divs */
+
 div {
     color: brown
+}
+
+/*This one applies to all content in the affected files*/
+*{
+    color:aqua
+}
+
+/*Ths one will apply to all classes with the name title*/
+.title{
+    color:red
+}
+
+/*I forget but this is one as well*/
+#logo{
+    color:purple
+}
+
+/*You can chain them together as well*/
+.title#logo{
+    
 }
