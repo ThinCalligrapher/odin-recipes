@@ -1,27 +1,52 @@
-/*This is how you make a commment in a css file*/
-
-/*The one below applies to all divs */
-
-div {
-    color: brown
+* {
+    font-size: large;
 }
 
-/*This one applies to all content in the affected files*/
-*{
-    color:aqua
+#title {
+    text-align: center;
+    margin: 32px auto;
+    background-color: lightslategrey;
+    padding: 24px;
+    font-size: 48px;
 }
 
-/*Ths one will apply to all classes with the name title*/
-.title{
-    color:red
+.subheader {
+    font-size: 36px;
+    background-color: lightpink;
+    padding: 12px;
+    margin-left: 0px;
+    margin-right: auto;
+    width: 400px;
 }
 
-/*I forget but this is one as well*/
-#logo{
-    color:purple
+ul {
+    border:  4px solid black;
+    margin: 0px 0px auto;
+    width: 400px;
+    padding: 4px;
+    list-style-position: inside;
 }
 
-/*You can chain them together as well*/
-.title#logo{
+li::marker{
+    font-size: 18px;
+    content: "👉 ";
     
+}
+
+li a {
+    font-size: 24px;
+}
+
+.subheader.sponsor {
+    font-size: 20px;
+    background-color: rgb(211, 168, 228, .7);
+}
+
+#nut-tagline {
+    font-family: monospace;
+    font-size: x-large;
+    color: white;
+    background-color: brown;
+    padding: 4px;
+    width: 400px;
 }
